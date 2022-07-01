@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EB4F66286FAFDF00625281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F65286FAFDF00625281 /* AppDelegate.swift */; };
+		37EB4F68286FAFDF00625281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F67286FAFDF00625281 /* SceneDelegate.swift */; };
+		37EB4F6B286FAFDF00625281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F69286FAFDF00625281 /* LaunchScreen.storyboard */; };
+		37EB4F6E286FAFDF00625281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F6C286FAFDF00625281 /* Main.storyboard */; };
+		37EB4F77286FAFDF00625281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F76286FAFDF00625281 /* AppDelegate.swift */; };
+		37EB4F7A286FAFDF00625281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F78286FAFDF00625281 /* Main.storyboard */; };
+		37EB4F82286FAFDF00625281 /* Wallabagger Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37EB4F81286FAFDF00625281 /* Wallabagger Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37EB4F8C286FAFDF00625281 /* Wallabagger Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 37EB4F8B286FAFDF00625281 /* Wallabagger Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		37EB4F92286FAFDF00625281 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F55286FAFDE00625281 /* Main.html */; };
+		37EB4F93286FAFDF00625281 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F55286FAFDE00625281 /* Main.html */; };
+		37EB4F94286FAFDF00625281 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F57286FAFDE00625281 /* Icon.png */; };
+		37EB4F95286FAFDF00625281 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F57286FAFDE00625281 /* Icon.png */; };
+		37EB4F96286FAFDF00625281 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F58286FAFDE00625281 /* Style.css */; };
+		37EB4F97286FAFDF00625281 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F58286FAFDE00625281 /* Style.css */; };
+		37EB4F98286FAFDF00625281 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F59286FAFDE00625281 /* Script.js */; };
+		37EB4F99286FAFDF00625281 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F59286FAFDE00625281 /* Script.js */; };
+		37EB4F9A286FAFDF00625281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F5A286FAFDE00625281 /* ViewController.swift */; };
+		37EB4F9B286FAFDF00625281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F5A286FAFDE00625281 /* ViewController.swift */; };
+		37EB4F9C286FAFDF00625281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F5B286FAFDF00625281 /* Assets.xcassets */; };
+		37EB4F9D286FAFDF00625281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4F5B286FAFDF00625281 /* Assets.xcassets */; };
+		37EB4F9E286FAFDF00625281 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F5D286FAFDF00625281 /* SafariWebExtensionHandler.swift */; };
+		37EB4F9F286FAFDF00625281 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EB4F5D286FAFDF00625281 /* SafariWebExtensionHandler.swift */; };
+		37EB4FB9286FAFE000625281 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB1286FAFE000625281 /* css */; };
+		37EB4FBA286FAFE000625281 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB2286FAFE000625281 /* js */; };
+		37EB4FBB286FAFE000625281 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB3286FAFE000625281 /* popup.html */; };
+		37EB4FBC286FAFE000625281 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB4286FAFE000625281 /* img */; };
+		37EB4FBD286FAFE000625281 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB5286FAFE000625281 /* manifest.json */; };
+		37EB4FBE286FAFE000625281 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB6286FAFE000625281 /* options.html */; };
+		37EB4FBF286FAFE000625281 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB7286FAFE000625281 /* _locales */; };
+		37EB4FC0286FAFE000625281 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB8286FAFE000625281 /* fonts */; };
+		37EB4FC1286FAFE000625281 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB1286FAFE000625281 /* css */; };
+		37EB4FC2286FAFE000625281 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB2286FAFE000625281 /* js */; };
+		37EB4FC3286FAFE000625281 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB3286FAFE000625281 /* popup.html */; };
+		37EB4FC4286FAFE000625281 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB4286FAFE000625281 /* img */; };
+		37EB4FC5286FAFE000625281 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB5286FAFE000625281 /* manifest.json */; };
+		37EB4FC6286FAFE000625281 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB6286FAFE000625281 /* options.html */; };
+		37EB4FC7286FAFE000625281 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB7286FAFE000625281 /* _locales */; };
+		37EB4FC8286FAFE000625281 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 37EB4FB8286FAFE000625281 /* fonts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37EB4F83286FAFDF00625281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EB4F4F286FAFDE00625281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EB4F80286FAFDF00625281;
+			remoteInfo = "Wallabagger Extension (iOS)";
+		};
+		37EB4F8D286FAFDF00625281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EB4F4F286FAFDE00625281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EB4F8A286FAFDF00625281;
+			remoteInfo = "Wallabagger Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37EB4FA5286FAFDF00625281 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37EB4F82286FAFDF00625281 /* Wallabagger Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4FAC286FAFDF00625281 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				37EB4F8C286FAFDF00625281 /* Wallabagger Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37EB4F56286FAFDE00625281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		37EB4F57286FAFDE00625281 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		37EB4F58286FAFDE00625281 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		37EB4F59286FAFDE00625281 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		37EB4F5A286FAFDE00625281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37EB4F5B286FAFDF00625281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37EB4F5D286FAFDF00625281 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		37EB4F62286FAFDF00625281 /* Wallabagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallabagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB4F65286FAFDF00625281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37EB4F67286FAFDF00625281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		37EB4F6A286FAFDF00625281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37EB4F6D286FAFDF00625281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EB4F6F286FAFDF00625281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EB4F74286FAFDF00625281 /* Wallabagger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallabagger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB4F76286FAFDF00625281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37EB4F79286FAFDF00625281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EB4F7B286FAFDF00625281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EB4F7C286FAFDF00625281 /* Wallabagger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wallabagger.entitlements; sourceTree = "<group>"; };
+		37EB4F81286FAFDF00625281 /* Wallabagger Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wallabagger Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB4F86286FAFDF00625281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EB4F8B286FAFDF00625281 /* Wallabagger Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wallabagger Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB4F90286FAFDF00625281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37EB4F91286FAFDF00625281 /* Wallabagger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wallabagger.entitlements; sourceTree = "<group>"; };
+		37EB4FB1286FAFE000625281 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = Resources/css; sourceTree = "<group>"; };
+		37EB4FB2286FAFE000625281 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Resources/js; sourceTree = "<group>"; };
+		37EB4FB3286FAFE000625281 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		37EB4FB4286FAFE000625281 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		37EB4FB5286FAFE000625281 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		37EB4FB6286FAFE000625281 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		37EB4FB7286FAFE000625281 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		37EB4FB8286FAFE000625281 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = Resources/fonts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EB4F5F286FAFDF00625281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F71286FAFDF00625281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F7E286FAFDF00625281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F88286FAFDF00625281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EB4F4E286FAFDE00625281 = {
+			isa = PBXGroup;
+			children = (
+				37EB4F53286FAFDE00625281 /* Shared (App) */,
+				37EB4F5C286FAFDF00625281 /* Shared (Extension) */,
+				37EB4F64286FAFDF00625281 /* iOS (App) */,
+				37EB4F75286FAFDF00625281 /* macOS (App) */,
+				37EB4F85286FAFDF00625281 /* iOS (Extension) */,
+				37EB4F8F286FAFDF00625281 /* macOS (Extension) */,
+				37EB4F63286FAFDF00625281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EB4F53286FAFDE00625281 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F5A286FAFDE00625281 /* ViewController.swift */,
+				37EB4F5B286FAFDF00625281 /* Assets.xcassets */,
+				37EB4F54286FAFDE00625281 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		37EB4F54286FAFDE00625281 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F55286FAFDE00625281 /* Main.html */,
+				37EB4F57286FAFDE00625281 /* Icon.png */,
+				37EB4F58286FAFDE00625281 /* Style.css */,
+				37EB4F59286FAFDE00625281 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37EB4F5C286FAFDF00625281 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4FB0286FAFE000625281 /* Resources */,
+				37EB4F5D286FAFDF00625281 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		37EB4F63286FAFDF00625281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F62286FAFDF00625281 /* Wallabagger.app */,
+				37EB4F74286FAFDF00625281 /* Wallabagger.app */,
+				37EB4F81286FAFDF00625281 /* Wallabagger Extension.appex */,
+				37EB4F8B286FAFDF00625281 /* Wallabagger Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EB4F64286FAFDF00625281 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F65286FAFDF00625281 /* AppDelegate.swift */,
+				37EB4F67286FAFDF00625281 /* SceneDelegate.swift */,
+				37EB4F69286FAFDF00625281 /* LaunchScreen.storyboard */,
+				37EB4F6C286FAFDF00625281 /* Main.storyboard */,
+				37EB4F6F286FAFDF00625281 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		37EB4F75286FAFDF00625281 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F76286FAFDF00625281 /* AppDelegate.swift */,
+				37EB4F78286FAFDF00625281 /* Main.storyboard */,
+				37EB4F7B286FAFDF00625281 /* Info.plist */,
+				37EB4F7C286FAFDF00625281 /* Wallabagger.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		37EB4F85286FAFDF00625281 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F86286FAFDF00625281 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		37EB4F8F286FAFDF00625281 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4F90286FAFDF00625281 /* Info.plist */,
+				37EB4F91286FAFDF00625281 /* Wallabagger.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		37EB4FB0286FAFE000625281 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37EB4FB1286FAFE000625281 /* css */,
+				37EB4FB2286FAFE000625281 /* js */,
+				37EB4FB3286FAFE000625281 /* popup.html */,
+				37EB4FB4286FAFE000625281 /* img */,
+				37EB4FB5286FAFE000625281 /* manifest.json */,
+				37EB4FB6286FAFE000625281 /* options.html */,
+				37EB4FB7286FAFE000625281 /* _locales */,
+				37EB4FB8286FAFE000625281 /* fonts */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EB4F61286FAFDF00625281 /* Wallabagger (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB4FA6286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger (iOS)" */;
+			buildPhases = (
+				37EB4F5E286FAFDF00625281 /* Sources */,
+				37EB4F5F286FAFDF00625281 /* Frameworks */,
+				37EB4F60286FAFDF00625281 /* Resources */,
+				37EB4FA5286FAFDF00625281 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EB4F84286FAFDF00625281 /* PBXTargetDependency */,
+			);
+			name = "Wallabagger (iOS)";
+			productName = "Wallabagger (iOS)";
+			productReference = 37EB4F62286FAFDF00625281 /* Wallabagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EB4F73286FAFDF00625281 /* Wallabagger (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB4FAD286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger (macOS)" */;
+			buildPhases = (
+				37EB4F70286FAFDF00625281 /* Sources */,
+				37EB4F71286FAFDF00625281 /* Frameworks */,
+				37EB4F72286FAFDF00625281 /* Resources */,
+				37EB4FAC286FAFDF00625281 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EB4F8E286FAFDF00625281 /* PBXTargetDependency */,
+			);
+			name = "Wallabagger (macOS)";
+			productName = "Wallabagger (macOS)";
+			productReference = 37EB4F74286FAFDF00625281 /* Wallabagger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EB4F80286FAFDF00625281 /* Wallabagger Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB4FA2286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger Extension (iOS)" */;
+			buildPhases = (
+				37EB4F7D286FAFDF00625281 /* Sources */,
+				37EB4F7E286FAFDF00625281 /* Frameworks */,
+				37EB4F7F286FAFDF00625281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wallabagger Extension (iOS)";
+			productName = "Wallabagger Extension (iOS)";
+			productReference = 37EB4F81286FAFDF00625281 /* Wallabagger Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		37EB4F8A286FAFDF00625281 /* Wallabagger Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB4FA9286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger Extension (macOS)" */;
+			buildPhases = (
+				37EB4F87286FAFDF00625281 /* Sources */,
+				37EB4F88286FAFDF00625281 /* Frameworks */,
+				37EB4F89286FAFDF00625281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wallabagger Extension (macOS)";
+			productName = "Wallabagger Extension (macOS)";
+			productReference = 37EB4F8B286FAFDF00625281 /* Wallabagger Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EB4F4F286FAFDE00625281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					37EB4F61286FAFDF00625281 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					37EB4F73286FAFDF00625281 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					37EB4F80286FAFDF00625281 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					37EB4F8A286FAFDF00625281 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 37EB4F52286FAFDE00625281 /* Build configuration list for PBXProject "Wallabagger" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EB4F4E286FAFDE00625281;
+			productRefGroup = 37EB4F63286FAFDF00625281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EB4F61286FAFDF00625281 /* Wallabagger (iOS) */,
+				37EB4F73286FAFDF00625281 /* Wallabagger (macOS) */,
+				37EB4F80286FAFDF00625281 /* Wallabagger Extension (iOS) */,
+				37EB4F8A286FAFDF00625281 /* Wallabagger Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EB4F60286FAFDF00625281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F94286FAFDF00625281 /* Icon.png in Resources */,
+				37EB4F6B286FAFDF00625281 /* LaunchScreen.storyboard in Resources */,
+				37EB4F92286FAFDF00625281 /* Main.html in Resources */,
+				37EB4F98286FAFDF00625281 /* Script.js in Resources */,
+				37EB4F9C286FAFDF00625281 /* Assets.xcassets in Resources */,
+				37EB4F6E286FAFDF00625281 /* Main.storyboard in Resources */,
+				37EB4F96286FAFDF00625281 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F72286FAFDF00625281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F95286FAFDF00625281 /* Icon.png in Resources */,
+				37EB4F97286FAFDF00625281 /* Style.css in Resources */,
+				37EB4F7A286FAFDF00625281 /* Main.storyboard in Resources */,
+				37EB4F99286FAFDF00625281 /* Script.js in Resources */,
+				37EB4F9D286FAFDF00625281 /* Assets.xcassets in Resources */,
+				37EB4F93286FAFDF00625281 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F7F286FAFDF00625281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4FC4286FAFE000625281 /* img in Resources */,
+				37EB4FC1286FAFE000625281 /* css in Resources */,
+				37EB4FC5286FAFE000625281 /* manifest.json in Resources */,
+				37EB4FC3286FAFE000625281 /* popup.html in Resources */,
+				37EB4FC2286FAFE000625281 /* js in Resources */,
+				37EB4FC7286FAFE000625281 /* _locales in Resources */,
+				37EB4FC6286FAFE000625281 /* options.html in Resources */,
+				37EB4FC8286FAFE000625281 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F89286FAFDF00625281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4FBC286FAFE000625281 /* img in Resources */,
+				37EB4FB9286FAFE000625281 /* css in Resources */,
+				37EB4FBD286FAFE000625281 /* manifest.json in Resources */,
+				37EB4FBB286FAFE000625281 /* popup.html in Resources */,
+				37EB4FBA286FAFE000625281 /* js in Resources */,
+				37EB4FBF286FAFE000625281 /* _locales in Resources */,
+				37EB4FBE286FAFE000625281 /* options.html in Resources */,
+				37EB4FC0286FAFE000625281 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EB4F5E286FAFDF00625281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F9A286FAFDF00625281 /* ViewController.swift in Sources */,
+				37EB4F66286FAFDF00625281 /* AppDelegate.swift in Sources */,
+				37EB4F68286FAFDF00625281 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F70286FAFDF00625281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F9B286FAFDF00625281 /* ViewController.swift in Sources */,
+				37EB4F77286FAFDF00625281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F7D286FAFDF00625281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F9E286FAFDF00625281 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB4F87286FAFDF00625281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB4F9F286FAFDF00625281 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EB4F84286FAFDF00625281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EB4F80286FAFDF00625281 /* Wallabagger Extension (iOS) */;
+			targetProxy = 37EB4F83286FAFDF00625281 /* PBXContainerItemProxy */;
+		};
+		37EB4F8E286FAFDF00625281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EB4F8A286FAFDF00625281 /* Wallabagger Extension (macOS) */;
+			targetProxy = 37EB4F8D286FAFDF00625281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37EB4F55286FAFDE00625281 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB4F56286FAFDE00625281 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		37EB4F69286FAFDF00625281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB4F6A286FAFDF00625281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		37EB4F6C286FAFDF00625281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB4F6D286FAFDF00625281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EB4F78286FAFDF00625281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB4F79286FAFDF00625281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EB4FA0286FAFDF00625281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37EB4FA1286FAFDF00625281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		37EB4FA3286FAFDF00625281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallabagger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger.Extension;
+				PRODUCT_NAME = "Wallabagger Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EB4FA4286FAFDF00625281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallabagger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger.Extension;
+				PRODUCT_NAME = "Wallabagger Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EB4FA7286FAFDF00625281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallabagger;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger;
+				PRODUCT_NAME = Wallabagger;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37EB4FA8286FAFDF00625281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallabagger;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger;
+				PRODUCT_NAME = Wallabagger;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EB4FAA286FAFDF00625281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Wallabagger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallabagger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger.Extension;
+				PRODUCT_NAME = "Wallabagger Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37EB4FAB286FAFDF00625281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Wallabagger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallabagger Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger.Extension;
+				PRODUCT_NAME = "Wallabagger Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		37EB4FAE286FAFDF00625281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Wallabagger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallabagger;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger;
+				PRODUCT_NAME = Wallabagger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		37EB4FAF286FAFDF00625281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Wallabagger.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Wallabagger;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourCompany.Wallabagger;
+				PRODUCT_NAME = Wallabagger;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EB4F52286FAFDE00625281 /* Build configuration list for PBXProject "Wallabagger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB4FA0286FAFDF00625281 /* Debug */,
+				37EB4FA1286FAFDF00625281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EB4FA2286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB4FA3286FAFDF00625281 /* Debug */,
+				37EB4FA4286FAFDF00625281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EB4FA6286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB4FA7286FAFDF00625281 /* Debug */,
+				37EB4FA8286FAFDF00625281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EB4FA9286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB4FAA286FAFDF00625281 /* Debug */,
+				37EB4FAB286FAFDF00625281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EB4FAD286FAFDF00625281 /* Build configuration list for PBXNativeTarget "Wallabagger (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB4FAE286FAFDF00625281 /* Debug */,
+				37EB4FAF286FAFDF00625281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EB4F4F286FAFDE00625281 /* Project object */;
+}
